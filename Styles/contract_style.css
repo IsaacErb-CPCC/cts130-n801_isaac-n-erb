@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*==============================================
+  INTERNAL DOCUMENTATION:
+  - File: intro_style.css
+
+  - Author: Isaac Nelson Erb.
+
+  - Date Created: 2023-Aug-13.
+
+  - Description: Styles the pages 'contract'
+		and 'introductions', for the M1 assignments.
+==============================================*/
+
+html {
+	font-size: 17px;
+	background-color: #303344;
+	color: #F0F0F0;
+}
+
+body {
+	font-family: 'Verdana', 'Tahoma', 'Calibri';
+	margin-left: 2cm;
+	margin-right: 2cm;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+a {
+	color: #FFBBDD;
+}
+a:visited {
+	color: #EEDDFF;
+}
+
+header h1{
+	font-family: 'Tahoma', 'Verdana', 'Calibri';
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	font-size: 0.8rem;
+}
